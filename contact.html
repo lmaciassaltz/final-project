@@ -1,1 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Contact Page</title>
+<style>
+body {font-family: Arial, Helvetica, sans-serif;}
+* {box-sizing: border-box;}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: rgb(116, 150, 210);
+  color: rgb(255, 255, 255);
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: rgb(216, 164, 155);
+}
+
+.container {
+  border-radius: 5px;
+  background-color:  rgb(199, 206, 246);
+  padding: 20px;
+}
+
+body  {
+    background-color: rgb(230, 162, 197);
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(116, 150, 210);
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  word-spacing: 25px;
+  }
+
+  a:hover {
+    background-color: rgb(216, 164, 155);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+  h3 {
+    margin-top: 7%;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: rgb(18, 86, 136);
+    color: rgb(255, 255, 255);
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+footer{
+  text-align: center;
+}
+
+
+</style>
+</head>
+<body>
+
+  <ul>
+    <img src="logo copy.png" alt="Serial Knitters" width="5%"/>
+    <a href="index.html" target="_blank">Home</a> 
+    <a href="about.html" target="_blank">About</a> 
+    <a href="contact.html" target="_blank">Contact</a> 
+  </ul>
+
+<h3>Contact Form</h3>
+<p>Fill this form out if you want to contribute to Serial Knitters, or just to say hello!</p>
+
+<div class="container">
+  <form action="/action_page.php">
+    <label for="fname">Full Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name...">
+
+    <label for="Email">Your Email</label>
+    <input type="text" id="Email" name="Email" placeholder="Your Email...">
+
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="usa">USA</option>
+      <option value="mexico">Mexico</option>
+      <option value="canada">Canada</option>
+    </select>
+
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
+
+<body>
+
+<center><p>Pssssst! You can find us here, from time to time too!</p>
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25204.64819505885!2d-122.30217036044921!3d37.84669330000001!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80857ef3b5724161%3A0x5f52f592216f7364!2sA%20Verb%20for%20Keeping%20Warm!5e0!3m2!1sen!2sus!4v1648525752634!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></center>
+
+</body>
+<footer>
+  <p>Lindsey Macias Saltz<br>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <a href="https://www.instagram.com/woolandthegang/?hl=en" class="fa fa-instagram"></a><br>
+  <a href="serial.knitters@gmail.com">serial.knitters@gmail.com</a></p>
+  
+</footer>
+</html>
 

@@ -1,1 +1,110 @@
+body {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif
+}
 
+aside {
+    width: 20%;
+    padding-left: 10px;
+    margin-left: 10px;
+    padding-top: 10px;
+    float: right;
+    font-style: italic;
+    background-color: rgb(215, 170, 224);
+    text-align: center;
+}
+
+section { 
+    display: block;
+  }
+
+  .all-browsers {
+    margin: 0;
+    padding: 5px;
+    background-color: rgb(240, 185, 245);
+  }
+
+  ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  font-family: Helvetica, sans-serif;
+  background-color: rgb(116, 150, 210);
+  position: fixed;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  word-spacing: 25px;
+  }
+
+  a:hover {
+    background-color: rgb(216, 164, 155);
+  }
+
+  a:link {
+    text-decoration: none;
+  }
+
+ #example1 {
+    border: 1px solid;
+    padding: 5px;
+    margin-top: 3%;
+    box-shadow: 3px 3px;
+    background-color: rgb(199, 206, 246);
+  }
+
+  body  {
+    background-color: rgb(230, 162, 197)
+    ;
+  }
+
+  img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    float: left
+  }
+
+  .column {
+    float: left;
+    width: 30%;
+    padding: 23px;
+    height: 275px;
+    margin-bottom: 20px;
+    
+  }
+  
+  li {
+    float: left;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+
+  .fa-instagram {
+    background: rgb(18, 86, 136);
+    color: rgb(255, 255, 255);
+  }
+
+  .fa:hover {
+    opacity: 0.7;
+}

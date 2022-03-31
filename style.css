@@ -8,14 +8,16 @@ body {
 
 aside {
     width: 20%;
-    padding-left: 10px;
-    margin-left: 10px;
-    padding-top: 10px;
+    height: 20%;
+    padding-left: 21px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    padding-top: 20px;
     float: right;
     font-style: italic;
-    background-color: rgb(215, 170, 224);
+    background-color: rgb(116, 150, 210);
     text-align: center;
-}
+  }
 
 section { 
     display: block;
@@ -24,7 +26,7 @@ section {
   .all-browsers {
     margin: 0;
     padding: 5px;
-    background-color: rgb(240, 185, 245);
+    background-color: rgb(199, 206, 246);
   }
 
   ul {
